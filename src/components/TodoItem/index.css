@@ -1,0 +1,27 @@
+.list-item-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.todo-name {
+  font-family: 'Roboto';
+  color: #000000;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.button {
+  font-size: 11px;
+  color: #ff0b37;
+  font-family: 'Roboto';
+  border: 1px solid #ff0b37;
+  padding-bottom: 15px;
+  padding-top: 5px;
+  border-radius: 5px;
+  height: 25px;
+  width: 60px;
+  background-color: #ffffff;
+}
